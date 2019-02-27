@@ -1,0 +1,113 @@
+body{
+  background-color: #4682B4;
+}
+
+.background-white{
+  background-color: white;
+}
+
+.color-white{
+  color: white;
+}
+.background-marron{
+  background-color: #A52A2A;
+  color: white;
+}
+
+.display-f-r{
+  display: flow-root;
+}
+
+.margin-top-5{
+  margin-top: 50px;
+}
+.img_logo{
+  width: 80px;
+}
+
+.imagenes_redes{
+  width: 50px;
+}
+
+.img-hover:hover {
+ filter: opacity(.5);
+}
+
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flex-content-center {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.border-radius{
+  border-radius: 4px 0px 0px 4px;
+}
+
+.border-radius-buscar{
+  border-radius: 0px 4px 4px 0px;
+}
+
+.float_right{
+  float: right;
+}
+
+.width-img{
+  width: 100%;
+  height: 200px;
+}
+
+.padding-top{
+  padding-top: 15px;
+}
+
+.padding-top-40px{
+  padding-top: 40px;
+}
+
+.padding-right{
+  padding-right: 15px;
+}
+
+.padding-left{
+  padding-left: 15px;
+}
+
+.padding-left-0{
+  padding-left: 0px;
+}
+
+.padding-right-0{
+  padding-right: 0px;
+}
+
+.border-solid-1px{
+  border: 1px solid #c2c2c2;
+}
+
+.width-10{
+  width: 100% !important;
+}
+@media (max-width: 992px){
+  .flex-container {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .margin-top-5{
+    margin-top: 20px;
+  }
+
+  .container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

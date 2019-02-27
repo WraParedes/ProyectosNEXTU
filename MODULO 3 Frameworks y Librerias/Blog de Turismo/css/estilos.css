@@ -1,0 +1,85 @@
+body{
+  background: #0080FF url("../img/fondo.jpg") no-repeat fixed center;
+  background-position: bottom;
+  background-size:100% 70%;
+}
+
+.border-radius-10px{
+  border-radius: 10px;
+}
+
+.border-radius-autor{
+  border-radius: 100px;
+  height: 190px;
+}
+.color-white{
+  color: white !important;
+}
+
+.color-black{
+  color: black;
+}
+
+.color-blue-light{
+ color: #29b6f6;
+}
+.background-white{
+  background-color: white;
+}
+.font-italic{
+  font-style: italic;
+}
+
+nav{
+  box-shadow: none;
+  background-color:inherit;
+}
+
+.line-height{
+  line-height: 35px !important;
+}
+
+.margin-top-15px{
+  margin-top: 15px;
+}
+
+.margin-right-20px{
+  margin-right: 20px;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.margin-bottom-50px{
+  margin-bottom: 50px;
+}
+
+.border-bottom{
+  border-bottom: 3px solid #c2c2c2;
+}
+
+
+.height-140px{
+  height: 140px !important;
+}
+
+.width-50{
+  width: 50%;
+}
+
+.width-100{
+  width: 100%;
+}
+
+.height-700{
+  height: 700px !important;
+}
+
+.float-left{
+  float: left;
+}
+
+.text-align-justifi{
+  text-align: justify;
+}
