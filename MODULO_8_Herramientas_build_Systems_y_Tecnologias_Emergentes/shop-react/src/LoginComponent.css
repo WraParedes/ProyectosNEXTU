@@ -1,0 +1,12 @@
+
+.white-text{
+    color: white;
+  }
+  
+  .error{
+    color: red;
+  }
+  
+  body{
+    background-image: url("./img/login-fondo.jpg");
+  }

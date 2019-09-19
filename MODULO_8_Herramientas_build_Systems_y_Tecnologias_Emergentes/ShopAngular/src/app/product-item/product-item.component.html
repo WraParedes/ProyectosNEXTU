@@ -1,0 +1,17 @@
+<div class="bordered">
+
+  <img src="../../assets/{{product.image}}" alt="image {{product.name}}" height="150" width="100%" />
+
+  <h4>{{product.name}}</h4>
+
+  <h6><strong>Precio:</strong> {{product.price | currency}}</h6>
+
+  <h6> <strong> Unidades disponibles: </strong> {{product.stock}}</h6>
+
+  <a routerLink="/productDetail/{{product.id}}"> <button type="button" class="badge badge-primary">Ver más</button> </a>
+
+  <button type="button" class="badge badge-warning" (click)=addToCart()>Añadir</button>
+
+  <input type="number" class="" [(ngModel)]="purchaseQuantity">
+
+</div>

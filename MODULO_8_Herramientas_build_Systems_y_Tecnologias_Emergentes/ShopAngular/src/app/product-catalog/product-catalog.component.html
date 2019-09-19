@@ -1,0 +1,28 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col">
+
+      <h1>Catálogo de productos</h1>
+
+    </div>
+
+    <div class="col text-right">
+
+      <p>¿Qué estás buscando?</p>
+      <input type="text" [(ngModel)]="searchingText" (keyup)="inputModified($event)">
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-3" *ngFor="let product of productsToDisplay">
+      <app-product-item [product]="product"></app-product-item>
+    </div>
+
+  </div>
+
+</div>

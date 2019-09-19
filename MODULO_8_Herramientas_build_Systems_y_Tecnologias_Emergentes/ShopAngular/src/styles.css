@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+
+.background {
+  background-image: url('./assets/main-fondo.jpg');
+}
+
+body {
+  background-image: url('./assets/login-fondo.jpg');
+}

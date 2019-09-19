@@ -1,0 +1,56 @@
+<div class="background">
+
+  <div class="container">
+
+    <app-header></app-header>
+
+    <br>
+
+    <div class="jumbotron">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col">
+
+            <h1>{{product.name}}</h1>
+
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col">
+
+            <img src="../../assets/{{product.image}}" alt="image {{product.name}}" height="300px" />
+
+          </div>
+
+          <div class="col">
+
+            <h4>{{product.name}}</h4>
+
+            <h6><strong>Precio:</strong> {{product.price | currency}}</h6>
+
+            <h6> <strong> Unidades disponibles: </strong> {{product.stock}}</h6>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-2">
+
+            <button type="button" class="btn btn-default" (click)="goBack()">Atrás</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

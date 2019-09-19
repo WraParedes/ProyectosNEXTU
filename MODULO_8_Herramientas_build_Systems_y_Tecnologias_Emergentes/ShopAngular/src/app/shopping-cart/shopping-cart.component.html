@@ -1,0 +1,55 @@
+<div class="background">
+
+  <div class="container">
+
+    <app-header></app-header>
+
+    <br>
+
+    <div class="jumbotron">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col">
+
+            <h1>{{title}}</h1>
+
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-6">
+
+            <div class="container">
+
+              <div class="" *ngFor="let item of shoppingCartService.shoppingCartItems">
+
+                <app-shopping-cart-item [item]="item"></app-shopping-cart-item>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-6">
+
+            <h1>Total: {{shoppingCartService.total() | currency}}</h1>
+
+            <a routerLink="/dashboard"><button type="button" class="btn btn-danger">Cancelar</button> </a>
+            <button type="button" class="btn btn-success" (click)=pay()>Pagar</button>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

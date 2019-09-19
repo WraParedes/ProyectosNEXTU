@@ -1,0 +1,12 @@
+.bordered{
+  margin-top: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: gray;
+}
+
+
+input[type="number"] {
+   width:50px;
+}

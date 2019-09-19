@@ -1,0 +1,31 @@
+<div class="bordered">
+
+  <div class="row">
+
+    <div class="col-3">
+
+      <img src="../../assets/{{item.product.image}}" alt="image {{item.product.name}}" height="50" width="100" />
+
+    </div>
+
+    <div class="col-8">
+
+      <h4>{{item.product.name}}</h4>
+
+      <h6><strong>Unidades:</strong> {{item.quantity}}</h6>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col">
+
+      <h6> <strong> Subtotal: </strong> {{item.subtotal() | currency}}</h6>
+
+    </div>
+
+  </div>
+
+</div>
