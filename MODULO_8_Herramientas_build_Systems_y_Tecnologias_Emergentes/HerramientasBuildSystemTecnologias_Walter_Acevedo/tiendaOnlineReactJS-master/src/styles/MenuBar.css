@@ -1,0 +1,53 @@
+.navbar {
+	background-color: #dddddd;
+	width: 80%;
+	height: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	margin: 0 auto;
+}
+
+.title {
+	float: left;
+	margin: 8px;
+    width: 30%;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    width: 60%;
+}
+
+.menu li {
+    border: none;
+	float: right;
+    height: 38px; 
+}
+
+.enlase {
+    display: block;
+    padding: 8px;
+}
+
+.numProd {
+	display: block;
+	color: white;
+	width: 12px;
+	height: 12px;
+	-webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    background-color: red;
+    padding: 3px; 
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+}
